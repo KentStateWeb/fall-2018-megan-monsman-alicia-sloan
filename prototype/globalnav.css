@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800');
+
+.hopps-mark img {
+  max-width: 100%;
+  max-height: 80px;
+  items-align: center;
+  background-color: rgb(245,210,73);
+}
+
+.wrapper {
+  font-family: 'dosis', sans-serif;
+  background-color: rgb(171,64,64);
+  padding: .75em;
+}
+
+.wrapper nav ul {
+   display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0;
+
+}
+
+.wrapper li {
+  list-style: none;
+
+}
+
+.wrapper a {
+  color: white;
+  background-color: rgb(171,64,64);
+}
