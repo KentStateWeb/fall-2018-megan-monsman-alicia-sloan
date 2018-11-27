@@ -1,0 +1,27 @@
+.banner-images .drafts {
+  background-image: url("file:///Users/meganmonsman/Desktop/VCD/RWD/fall-2018-megan-monsman-alicia-sloan/prototype/Photos/drafts.jpg");
+	background-size: cover;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto;
+  z-index: -5;
+}
+
+.box {
+  background-color: white;
+  padding: 3em;
+  margin: 0 auto;
+  margin-left: 5em;
+  margin-right: 5em;
+  background-color: rgb(214,110,22);
+  opacity: 0.7;
+  align-items: center;
+  display: flex;
+}
+
+img .hopps-logo {
+    width: 500px;
+    height: 350px;
+  }
