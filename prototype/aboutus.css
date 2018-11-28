@@ -2,3 +2,10 @@ aboutus2 {
   max-width: 100%;
   display: flex;
 }
+
+.box {
+  padding: 350em;
+  margin: 0 auto;
+  background-color: rgb(214,110,22);
+  opacity: 0.7;
+  }
