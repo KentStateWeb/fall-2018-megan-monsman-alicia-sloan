@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
+
 .banner-images .two-beers {
 	background-size: cover;
   position: absolute;
@@ -9,9 +11,22 @@
   z-index: -5;
   }
 
-h1 {
+.heading-top h1 {
+	font-family: 'work sans', sans-serif;
+	font-weight: 300;
+	font-size: 2.25em;
   color: white;
   text-align: center;
+}
+
+.heading-top .transparent-box {
+	background-color: rgb(214,110,22);
+	padding: 1em;
+	margin-top: -.25em;
+	margin-left: -.5em;
+	margin-right: -.5em;
+	margin-bottom: 1em;
+	opacity: .75;
 }
 
 h2 {
@@ -19,36 +34,72 @@ h2 {
   text-align: center;
 }
 
-h1 {
+.box .featured h3 {
+	font-family: 'work sans', sans-serif;
+	font-weight: 600;
+	font-size: 1.35em;
+	color: white;
+	text-align: center;
+}
+
+.box .featured h4 {
+	font-family: 'work sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.1em;
+  color: white;
+  text-align: center;
+}
+
+.box .featured h1 {
+	font-family: 'work sans', sans-serif;
+	font-weight: 600;
+	font-size: 2em;
   color: white;
   text-align: center;
 }
 
 .box .featured {
-  background-color: rgb(214,110,22);
+	background-image: url("Photos/drafts.jpg")
+  background-size: cover;
   padding: 1em;
-  margin: 1em;
+  margin: -1em;
   margin-left: -.5em;
   margin-right: -.5em;
   opacity: 1;
   }
 
- img .box .featured {
-  background-image: url("Photos/drafts.jpg")
-  background-size: cover;
-}
   .box .currentbrews {
     background-color: rgb(214,110,22);
     padding: 1em;
-    margin: 1em;
+    margin: -1em;
     margin-left: -.5em;
     margin-right: -.5em;
     opacity: 1;
     }
 
-p {
+.heading-top p {
+		font-family: 'works sans', sans-serif;
+		font-weight: 200;
     color: white;
     text-align: center;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+		opacity: 1;
   }
+
+p {
+		font-family: 'works sans', sans-serif;
+		font-weight: 100;
+    color: white;
+	  text-align: center;
+	  margin-left: 2em;
+	  margin-right: 2em;
+	  }
+
+	.box .currentbrews h1 {
+			font-family: 'work sans', sans-serif;
+			font-weight: 600;
+			font-size: 2em;
+		  color: white;
+		  text-align: center;
+	}
