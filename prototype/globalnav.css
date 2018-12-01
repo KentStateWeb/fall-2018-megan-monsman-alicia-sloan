@@ -48,3 +48,10 @@
   background-color: rgb(171,64,64);
   text-decoration: none;
 }
+
+@media screen and (max-width: 400px) {
+  .wrapper a {
+		display: flex;
+    justify-content: space-around;
+  }
+}

@@ -20,13 +20,23 @@
 }
 
 .heading-top .transparent-box {
-	background-color: rgb(214,110,22);
+	background-color: rgb(245,210,73);
 	padding: 1em;
 	margin-top: -.25em;
 	margin-left: -.5em;
 	margin-right: -.5em;
 	margin-bottom: 1em;
-	opacity: .75;
+	opacity: .4;
+}
+
+.transparent-box2 {
+	background-color: rgb(171,64,64);
+	padding-top: .25em;
+	margin-top: -1.03em;
+	margin-left: -1em;
+	margin-right: -1em;
+	margin-bottom: -1em;
+	opacity: .5;
 }
 
 h2 {
@@ -53,7 +63,7 @@ h2 {
 .box .featured h1 {
 	font-family: 'work sans', sans-serif;
 	font-weight: 600;
-	font-size: 2em;
+	font-size: 3.5em;
   color: white;
   text-align: center;
 }
@@ -68,14 +78,25 @@ h2 {
   opacity: 1;
   }
 
-  .box .currentbrews {
-    background-color: rgb(214,110,22);
+.box .featured p {
+	color: white;
+}
+
+.box .currentbrews {
+    background-color: rgb(164,112,82);
     padding: 1em;
     margin: -1em;
     margin-left: -.5em;
     margin-right: -.5em;
     opacity: 1;
     }
+
+.currentbrews hr {
+	border: 0;
+	width: 408px;
+	height: 1px;
+	background-color: black;
+}
 
 .heading-top p {
 		font-family: 'works sans', sans-serif;
@@ -89,17 +110,51 @@ h2 {
 
 p {
 		font-family: 'works sans', sans-serif;
-		font-weight: 100;
-    color: white;
+		font-weight: 300;
+    color: rgb(40,21,16);
 	  text-align: center;
 	  margin-left: 2em;
 	  margin-right: 2em;
 	  }
 
-	.box .currentbrews h1 {
+.currentbrews h5 {
+	font-family: 'work sans', sans-serif;
+	font-size:;
+	font-weight: 700;
+	color: rgb(40,21,16);
+	text-align: center;
+}
+
+.currentbrews h3 {
+	font-family: 'work sans', sans-serif;
+	font-weight: 600;
+	font-size: 1.35em;
+	color: rgb(40,21,16);
+	text-align: center;
+}
+
+.box .currentbrews h1 {
 			font-family: 'work sans', sans-serif;
 			font-weight: 600;
-			font-size: 2em;
-		  color: white;
+			font-size: 3.5em;
+		  color: rgb(40,21,16);
 		  text-align: center;
 	}
+
+.footer h3 {
+	font-family: 'work sans', sans-serif;
+	font-weight: 200;
+	text-align: center;
+	font-size: 1.35em;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.footer-block {
+	background-color: rgb(40,21,16);
+	margin-top: -2em;
+	margin-bottom: -1em;
+	margin-right: -.5em;
+	margin-left: -.5em;
+}
