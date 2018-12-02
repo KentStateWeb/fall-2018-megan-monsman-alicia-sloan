@@ -12,11 +12,10 @@
 .heading-top .transparent-box {
 	background-color: rgb(213,169,106);
 	padding: 1em;
-	margin-top: -.25em;
+	margin-top: 20em;
 	margin-left: -2em;
 	margin-right: -2em;
 	margin-bottom: 1em;
-	opacity: 1;
 }
 
 .transparent-box2 {
@@ -67,16 +66,21 @@ h2 {
   margin-right: -.5em;
   }
 
+.twobeers-picture {
+	margin-top: 7.75em;
+
+}
+
 .box .featured {
 	background-image: url("Photos/drafts.jpg")
   background-size: 509px;
 	max-height: 254px;
   padding: 1em;
-  margin: -1em;
+  margin-top: 39.75em;
   margin-left: -.5em;
   margin-right: -.5em;
   opacity: 1;
-	margin-top: 31em;
+
   }
 
 .box .featured hr {
