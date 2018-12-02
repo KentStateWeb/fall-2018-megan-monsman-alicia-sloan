@@ -67,6 +67,8 @@ h2 {
   }
 
 .twobeers-picture {
+	background-image: url("Photos/2beers.jpg")
+  background-size: 509px;
 	margin-top: 7.75em;
 
 }
@@ -76,7 +78,7 @@ h2 {
   background-size: 509px;
 	max-height: 254px;
   padding: 1em;
-  margin-top: 39.75em;
+  margin-top: 48.5em;
   margin-left: -.5em;
   margin-right: -.5em;
   opacity: 1;

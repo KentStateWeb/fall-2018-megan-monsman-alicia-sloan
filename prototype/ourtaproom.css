@@ -17,6 +17,10 @@ h1 {
   text-align: center;
 }
 
+.taproom img {
+  opacity: 0;
+}
+
 .taproom {
   background-image: url("Photos/taproom.jpg");
 	background-size: 495px;
