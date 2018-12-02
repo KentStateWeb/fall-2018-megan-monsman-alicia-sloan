@@ -1,7 +1,7 @@
 .banner-images .drafts {
   background-image: url("Photos/drafts.jpg");
 	background-size: cover;
-  max-height: 700px;
+  max-height: 100%;
   padding: 1em;
   margin: -1em;
   margin-left: -.5em;
@@ -10,7 +10,6 @@
 }
 
 .box {
-  background-color: white;
   padding: 3em;
   margin: 0 auto;
   margin-left: 5em;
@@ -18,10 +17,6 @@
   background-color: rgb(214,110,22);
   opacity: .7;
 }
-
-.hopps-logo img {
-    max-width: 100%;
-  }
 
   .footer h3 {
   	font-family: 'work sans', sans-serif;
@@ -55,7 +50,7 @@ h3 {
 
   @media screen and (min-width: 650px) {
     .footer-block {
-      margin-top: 19em;
+      margin-top: 30em;
       margin-bottom: -3em;
       padding-top: -4em;
       padding-bottom: -4em;
@@ -77,10 +72,11 @@ h3 {
       margin-top: 8em;
       z-index: -5;
   }
-}
-
-@media screen and (min-width: 1000px) {
-  .hopps-logo img {
-
+    .banner-images .drafts {
+      background-size: 1300px;
+      background-color: black;
+      margin-top: 8.5em;
+      max-width: 1268px;
+      margin-left: 4.25em;
     }
-  }
+}

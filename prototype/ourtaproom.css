@@ -19,10 +19,10 @@ h1 {
 
 .taproom {
   background-image: url("Photos/taproom.jpg");
-	background-size: 300px;
+	background-size: 495px;
   max-height: 300px;
-  max-width: 50%;
-  margin-top: -1em;
+  max-width: 100%;
+  margin-top: 0em;
 }
 
 .taproom-info p {
@@ -31,7 +31,7 @@ h1 {
   color: rgb(40,21,16);
   background-color: rgb(213,169,106);
   text-align: center;
-  margin-top: 20em;
+  margin-top: 0em;
   margin-left: -1em;
   margin-right: -1em;
   padding-top: 2em;
