@@ -99,6 +99,12 @@ h1 {
     margin-top: -32.83em;
   }
 
+  .taproom-info p {
+    font-weight: 400;
+    padding-top: 1em;
+    padding-bottom: 4.25em;
+  }
+
   .growler-info {
     margin-left: 50em;
     margin-top: -2.5em;
@@ -106,6 +112,8 @@ h1 {
 
   .growler-info p {
     background-color: white;
+    padding-left: 3em;
+    padding-right: 3em;
   }
 
   .hours nav ul {
@@ -127,6 +135,11 @@ h1 {
   .hours li {
     font-size: 1.25em;
     text-align: center;
+  }
 
+  h1 {
+    font-size: 2.75em;
+    padding-top: -1em;
+    padding-bottom: -.25em;
   }
 }
