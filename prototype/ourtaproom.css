@@ -75,3 +75,58 @@ h1 {
   margin-right: -.5em;
   margin-left: -.5em;
 }
+
+@media screen and (min-width: 650px) {
+  .footer-block {
+    margin-top: 12em;
+  }
+
+.footer h3 {
+  font-size: 1em;
+  }
+
+  .taproom {
+    background-image: url("Photos/taproom.jpg");
+  	background-size: 800px;
+    max-height: 525px;
+    max-width: 800px;
+    margin-top: 0em;
+    margin-left: -1em;
+  }
+
+  .taproom-info {
+    margin-left: 50em;
+    margin-top: -32.83em;
+  }
+
+  .growler-info {
+    margin-left: 50em;
+    margin-top: -2.5em;
+  }
+
+  .growler-info p {
+    background-color: white;
+  }
+
+  .hours nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -4em;
+    margin-right: 2.5em;
+  }
+
+  .hours {
+    margin-top: -1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-bottom: -14em;
+    padding-bottom: 6em;
+    background-color: rgb(146,109,90)
+  }
+
+  .hours li {
+    font-size: 1.25em;
+    text-align: center;
+
+  }
+}
