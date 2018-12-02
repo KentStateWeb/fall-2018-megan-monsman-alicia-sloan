@@ -19,10 +19,9 @@ h1 {
 
 .taproom {
   background-image: url("Photos/taproom.jpg");
-	background-size: cover;
-  max-height: 700px;
-  max-width: 100%;
-  margin-bottom: 3em;
+	background-size: 300px;
+  max-height: 300px;
+  max-width: 50%;
   margin-top: -1em;
 }
 
