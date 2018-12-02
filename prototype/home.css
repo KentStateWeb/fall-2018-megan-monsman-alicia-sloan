@@ -1,12 +1,12 @@
 .banner-images .drafts {
   background-image: url("Photos/drafts.jpg");
 	background-size: cover;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  overflow: hidden;
-  max-width: 100%;
-  margin: 0 auto;
-  z-index: -5;
+  max-height: 700px;
+  padding: 1em;
+  margin: -1em;
+  margin-left: -.5em;
+  margin-right: -.5em;
+  margin-top: 0;
 }
 
 .box {
@@ -16,10 +16,59 @@
   margin-left: 5em;
   margin-right: 5em;
   background-color: rgb(214,110,22);
-  opacity: 0.7;
+  opacity: .7;
 }
 
-img .hopps-logo {
-    width: 500px;
-    height: 350px;
+.hopps-logo img {
+    max-width: 100%;
+  }
+
+  .footer h3 {
+  	font-family: 'work sans', sans-serif;
+  	font-weight: 200;
+  	text-align: center;
+  	font-size: 1.35em;
+  	color: white;
+  	padding-top: 1em;
+  	padding-bottom: 1em;
+  }
+
+  .footer-block {
+  	background-color: rgb(40,21,16);
+  	margin-top: 8em;
+    margin-bottom: -2em;
+  	margin-right: -.5em;
+  	margin-left: -.5em;
+  }
+
+  @media screen and (min-width: 650px) {
+    .footer-block {
+      margin-top: 19em;
+      margin-bottom: -3em;
+      padding-top: -4em;
+      padding-bottom: -4em;
+    }
+
+  .footer h3 {
+    font-size: 1em;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .banner-images .drafts {
+      max-height: 600px;
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      overflow: hidden;
+      max-width: 100%;
+      margin-bottom: -2em;
+      margin-top: 8em;
+      z-index: -5;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hopps-logo img {
+
+    }
   }
