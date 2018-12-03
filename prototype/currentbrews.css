@@ -59,6 +59,14 @@ h2 {
 	margin-bottom: 2em;
 }
 
+.box .featured li {
+		list-style: none;
+}
+
+.box .featured nav ul {
+		padding: 0;
+}
+
 .heading-top {
 	max-height: 5px;
   padding: 1em;
@@ -99,7 +107,7 @@ h2 {
     margin: -1em;
     margin-left: -.5em;
     margin-right: -.5em;
-		margin-top: 32em;
+		margin-top: -131em;
     }
 
 .currentbrews hr {
@@ -144,6 +152,10 @@ h2 {
 		color: rgb(40,21,16);
 		text-align: center;
 		margin-bottom: 1.195em;
+		}
+
+.side-shot img {
+		opacity: 0;
 		}
 
 .currentbrews h5 {
@@ -245,10 +257,30 @@ h2 {
 		padding-right: 5em;
 	}
 
-	.side-shot p {
-		 background-image: url("Photos/Side-shot.jpg")
-		 background-size: cover;
-		 height: 100px;
-		 width: 300px;
-	    }
+	.box .currentbrews {
+	    margin-left: 43.5em;
+			margin-top: -90.2em;
+	 }
+
+	.box .currentbrews p {
+			 padding-left: 5em;
+			 padding-right: 5em;
+	}
+
+	.side-shot img {
+		opacity: 1;
+		 height: 475px;
+		 max-width: 100%;
+		 margin-left: -1em;
+		 margin-top: 27em;
+	}
+
+	.two-beers img {
+	   height: 370px;
+		 max-width: 100%;
+		 margin-left: -1em;
+}
+
+
+
 }
