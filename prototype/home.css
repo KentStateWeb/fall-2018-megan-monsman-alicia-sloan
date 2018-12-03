@@ -2,7 +2,7 @@
   background-image: url("Photos/drafts.jpg");
 	background-size: cover;
   max-height: 100%;
-  padding: 1em;
+  padding: 2em;
   margin: -1em;
   margin-left: -.5em;
   margin-right: -.5em;
@@ -10,15 +10,20 @@
 }
 
 .box {
-  padding: 3em;
+  padding: -6em;
   margin: 0 auto;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
   background-color: rgb(214,110,22);
   opacity: .7;
 }
 
-  .footer h3 {
+.box .hopps-logo  {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.footer h3 {
   	font-family: 'work sans', sans-serif;
   	font-weight: 200;
   	text-align: center;
@@ -36,7 +41,7 @@
   color: rgb(40,21,16);
   text-align: center;
   margin-left: -1em;
-  margin-right: -1em;
+  margin-right: -.25em;
   margin-bottom: -3.75em;
   margin-top: .35em;
   padding-top: .9em;
@@ -47,15 +52,15 @@
 
   .footer-block {
   	background-color: rgb(40,21,16);
-  	margin-top: 8em;
-    margin-bottom: -2em;
+  	margin-top: 8.45em;
+    margin-bottom: -3em;
   	margin-right: -.5em;
   	margin-left: -.5em;
   }
 
   @media screen and (min-width: 650px) {
     .footer-block {
-      margin-top: 30em;
+      margin-top: 8em;
       margin-bottom: -3em;
       padding-top: -4em;
       padding-bottom: -4em;
@@ -64,24 +69,26 @@
   .footer h3 {
     font-size: 1em;
     }
+
+  .quote {
+    margin-top: 1em;
+  }
   }
 
   @media screen and (min-width: 1000px) {
+
     .banner-images .drafts {
-      max-height: 600px;
-      position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
-      overflow: hidden;
+      background-size: 100%;
       max-width: 100%;
-      margin-bottom: -2em;
-      margin-top: 8em;
-      z-index: -5;
-  }
-    .banner-images .drafts {
-      background-size: 1300px;
-      background-color: black;
-      margin-top: 8.5em;
-      max-width: 1268px;
-      margin-left: 4.25em;
+      max-height: 522px;
+      margin-top: 0;
+      padding: 9em;
+    }
+
+    .box {
+      margin-left: 15em;
+      margin-right: 15em;
+      margin-top: -6em;
+      margin-bottom: -6em;
     }
 }
