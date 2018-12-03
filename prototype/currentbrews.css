@@ -7,14 +7,15 @@
   color: rgb(40,21,16);
   text-align: center;
 	padding-top: .02em;
+	margin-bottom: -8em;
 }
 
 .heading-top .transparent-box {
 	background-color: rgb(213,169,106);
 	padding: 1em;
 	margin-top: 20em;
-	margin-left: -2em;
-	margin-right: -2em;
+	margin-left: -1em;
+	margin-right: -1em;
 	margin-bottom: 1em;
 }
 
@@ -66,11 +67,11 @@ h2 {
   margin-right: -.5em;
   }
 
-.twobeers-picture {
-	background-image: url("Photos/2beers.jpg")
-  background-size: 509px;
-	margin-top: 7.75em;
-
+.two-beers img {
+	background-size: 500px;
+  max-height: 370px;
+  max-width: 100%;
+  margin-top: 0em;
 }
 
 .box .featured {
@@ -78,7 +79,7 @@ h2 {
   background-size: 509px;
 	max-height: 254px;
   padding: 1em;
-  margin-top: 48.5em;
+  margin-top: 30.75em;
   margin-left: -.5em;
   margin-right: -.5em;
   opacity: 1;
