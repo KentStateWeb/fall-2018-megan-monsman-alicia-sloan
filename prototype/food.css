@@ -1,47 +1,26 @@
-body {
-  font-family: sans-serif;
-}
-
  h1 {
-  font-size:40px;
+  font-size: 40px;
   text-align:center;
 }
 
 p {
-  text-align:center;
-  font-size:12px;
-  line-height:2em;
-  margin:20px;
-  padding-bottom:30px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 2em;
+  padding-bottom: 30px;
 }
 
-.food {
+.hero {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.sample-content {
   position: relative;
-  color: #fff;
-}
-
-.food:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgb(146,109,90);
+  background: rgba(0,0,0,0.4);
   z-index: 2;
-}
-
-.food .sample-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  z-index: 3;
+  color: white;
 }

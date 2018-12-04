@@ -64,3 +64,8 @@
     justify-content: space-around;
   }
 }
+
+body {
+  margin: 0;
+  font-family: 'work-sans', sans-serif;
+}
