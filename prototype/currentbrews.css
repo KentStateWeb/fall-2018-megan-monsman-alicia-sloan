@@ -281,6 +281,12 @@ h2 {
 		 margin-left: -1em;
 }
 
+	.currentbrews p {
+		margin-left: 7em;
+		margin-right: 7em;
+		}
 
-
+		.currentbrews hr {
+			width: 312px;
+		}
 }
