@@ -68,18 +68,19 @@ h2 {
 }
 
 .heading-top {
-	max-height: 5px;
+	max-height: 600px;
   padding: 1em;
   margin: -1em;
   margin-left: -.5em;
   margin-right: -.5em;
   }
 
-.two-beers img {
-	background-size: 500px;
-  max-height: 370px;
+.two-beers {
+	background-image: url('photos/2beers.jpg');
+	background-size: 300px;
+	max-height: 300px;
   max-width: 100%;
-  margin-top: 0em;
+  margin-top: 29em;
 }
 
 .box .featured {
@@ -91,7 +92,6 @@ h2 {
   margin-left: -.5em;
   margin-right: -.5em;
   opacity: 1;
-
   }
 
 .box .featured hr {
