@@ -1,3 +1,8 @@
+h1 {
+  font-size: 3em;
+  font-family: 'work-sans', sans-serif;
+}
+
 .times {
   font-weight: lighter;
 }
@@ -27,4 +32,11 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px;
+}
+
+.feature hr {
+  border: 0;
+	width: 408px;
+	height: 1px;
+  background-color: white;
 }

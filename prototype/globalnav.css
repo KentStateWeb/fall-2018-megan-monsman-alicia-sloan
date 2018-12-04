@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
 
+h1, h2, h3, p {
+  font-family: 'work-sans', sans-serif;
+}
+
 .twobeers-picture {
   background-image: url('Photos/2beers.jpg');
   background-size: 500px;

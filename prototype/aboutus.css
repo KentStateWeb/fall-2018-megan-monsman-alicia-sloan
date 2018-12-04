@@ -1,3 +1,7 @@
+h1 {
+  font-size: 3em;
+}
+
 .container {
   background-image: url('photos/aboutus.jpg');
   background-size: cover;
