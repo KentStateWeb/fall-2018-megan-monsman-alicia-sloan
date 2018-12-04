@@ -23,4 +23,14 @@ p {
   background: rgba(0,0,0,0.4);
   z-index: 2;
   color: white;
+  margin-top: 500px;
+  text-shadow: 0 3px 4px rgba(0,0,0,0.8);
+}
+
+header {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
