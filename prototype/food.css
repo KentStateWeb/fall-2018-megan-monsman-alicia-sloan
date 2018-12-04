@@ -25,6 +25,7 @@ p {
   color: white;
   margin-top: 500px;
   text-shadow: 0 3px 4px rgba(0,0,0,0.8);
+  padding: 50px;
 }
 
 header {

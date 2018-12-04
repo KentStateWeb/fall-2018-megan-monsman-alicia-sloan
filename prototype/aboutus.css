@@ -1,10 +1,10 @@
-.about-us {
+.container {
   background-image: url('photos/aboutus.jpg');
   background-size: cover;
 }
 
 .box {
-  background-color: rgb(214,110,22);
+  background-color: rgba(0,0,0,0.6);
   padding: 4em;
   opacity: 1;
   max-width: 600px;
@@ -13,8 +13,7 @@
   color: white;
 }
 
-.box-right {
-  background-color: rgb(171,64,64);
+.contact {
   padding: 2em;
   color: white;
   text-align: center;
@@ -22,11 +21,12 @@
   line-height: 1.5;
 }
 
-.box-left {
-  text-align: center;
-  background-color: white;
-  max-width: 30%;
+.contact-us {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(171,64,64);
 }
+
 
 @media screen and (min-width: 900px) {
 	.box-box {
@@ -38,9 +38,10 @@
   background-image: url('photos/MPB-9.jpg');
   color: white;
   text-align: center;
+  background-size: cover;
+  padding: 40px;
 }
 
 .overlay-box {
-  background-color: rgb(214,110,22);
-  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
 }
