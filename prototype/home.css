@@ -1,25 +1,91 @@
 .banner-images .drafts {
   background-image: url("Photos/drafts.jpg");
 	background-size: cover;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  overflow: hidden;
-  max-width: 100%;
-  margin: 0 auto;
-  z-index: -5;
+  max-height: 100%;
+  padding: 2em;
+  margin: -1em;
+  margin-left: -.5em;
+  margin-right: -.5em;
+  margin-top: 0;
 }
 
 .box {
-  background-color: white;
-  padding: 3em;
+  padding: -6em;
   margin: 0 auto;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
   background-color: rgb(214,110,22);
-  opacity: 0.7;
+  opacity: .7;
 }
 
-img .hopps-logo {
-    width: 500px;
-    height: 350px;
+.box .hopps-logo  {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.footer h3 {
+  	font-family: 'work sans', sans-serif;
+  	font-weight: 200;
+  	text-align: center;
+  	font-size: 1.35em;
+  	color: white;
+  	padding-top: 1em;
+  	padding-bottom: 1em;
+  }
+
+.quote h3 {
+  font-family: 'work sans', sans-serif;
+  font-weight: 600;
+	font-size: 2.25em;
+  background-color: rgb(213,169,106);
+  color: rgb(40,21,16);
+  text-align: center;
+  margin-left: -.25em;
+  margin-right: -.25em;
+  margin-bottom: -3.75em;
+  margin-top: .35em;
+  padding-top: .9em;
+  padding-bottom: .9em;
+
+
+}
+
+  .footer-block {
+  	background-color: rgb(40,21,16);
+  	margin-top: 8.45em;
+    margin-bottom: -3em;
+  	margin-right: -.5em;
+  	margin-left: -.5em;
+  }
+
+  @media screen and (min-width: 650px) {
+    .footer-block {
+      margin-top: 8em;
+      margin-bottom: -3em;
+      padding-top: -4em;
+      padding-bottom: -4em;
+    }
+
+  .footer h3 {
+    font-size: 1em;
+    }
+
+  .quote {
+    margin-top: 1em;
+  }
+
+  .banner-images .drafts {
+    background-size: 100%;
+    max-width: 100%;
+    max-height: 522px;
+    margin-top: 0;
+    padding: 9em;
+  }
+
+  .box {
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: -6em;
+    margin-bottom: -6em;
+  }
   }
