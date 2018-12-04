@@ -83,7 +83,7 @@ h2 {
 }
 
 .box .featured {
-	background-image: url("Photos/drafts.jpg")
+	background-image: url('photos/drafts.jpg')
   background-size: 509px;
 	max-height: 254px;
   padding: 1em;

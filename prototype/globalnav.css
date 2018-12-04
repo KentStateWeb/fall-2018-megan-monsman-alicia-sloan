@@ -6,10 +6,8 @@ h1, h2, h3, p {
 }
 
 .twobeers-picture {
-  background-image: url('Photos/2beers.jpg');
-  background-size: 500px;
-  max-height: 300px;
-  max-width: 100%;
+  background-image: url('photos/2beers.jpg');
+  max-width: 50%;
 }
 
 .hoppy-hour {
