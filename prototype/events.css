@@ -6,20 +6,25 @@ body {
   text-align: center;
 }
 
-.hero img {
+.feature {
+  margin: 0;
+  padding: 0;
+  background: url('photos/friends.jpg') no-repeat;
   background-size: cover;
-  position: relative;
-  display: flex;
-  max-width: 100%;
-  z-index: 1;
+  background-attachment: fixed;
+  padding-top: 500px;
 }
 
 .content {
-  padding: 40px;
+  padding: 50px;
   background-color: rgb(146,109,90);
-  margin-left: 100px;
-  margin-right: 100px;
   color: white;
   text-shadow: 0 3px 4px rgba(0,0,0,0.8);
-  z-index: 2
+  z-index: 1;
+}
+
+.content .wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px;
 }
