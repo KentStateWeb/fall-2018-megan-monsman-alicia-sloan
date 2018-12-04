@@ -14,3 +14,34 @@ p {
   margin:20px;
   padding-bottom:30px;
 }
+
+.food {
+  position: relative;
+  color: #fff;
+}
+
+.food:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(146,109,90);
+  z-index: 2;
+}
+
+.food .sample-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 3;
+}
