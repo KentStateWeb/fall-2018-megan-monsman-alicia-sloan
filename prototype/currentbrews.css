@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
 
-.heading-top h1 {
+.two-beers .heading-top h1 {
 	font-family: 'work sans', sans-serif;
 	font-weight: 300;
 	font-size: 2.25em;
@@ -10,7 +10,7 @@
 	margin-bottom: -8em;
 }
 
-.heading-top .transparent-box {
+.two-beers .heading-top .transparent-box {
 	background-color: rgb(213,169,106);
 	padding: 1em;
 	margin-top: 20em;
@@ -67,7 +67,7 @@ h2 {
 		padding: 0;
 }
 
-.heading-top {
+.two-beers .heading-top {
 	max-height: 600px;
   padding: 1em;
   margin: -1em;
@@ -77,10 +77,10 @@ h2 {
 
 .two-beers {
 	background-image: url('photos/2beers.jpg');
-	background-size: 300px;
-	max-height: 300px;
+	background-size: 698px;
+	max-height: 600px;
   max-width: 100%;
-  margin-top: 29em;
+  margin-top: 10em;
 }
 
 .box .featured {
@@ -117,7 +117,7 @@ h2 {
 	background-color: rgb(40,21,16);
 }
 
-.heading-top p {
+.two-beers .heading-top p {
 		font-family: 'works sans', sans-serif;
 		font-weight: 300;
     color: rgb(40,21,16);
@@ -212,14 +212,14 @@ h2 {
 		font-size: 1em;
 	}
 
-	.heading-top h1 {
+	.two-beers .heading-top h1 {
 		margin-left: 19.5em;
 		margin-bottom: 3em;
 		margin-top: -8.75em;
 		padding-top: -3em;
 	}
 
-	.heading-top .transparent-box {
+	.two-beers .heading-top .transparent-box {
 		margin-left: 43em;
 		margin-right: -1em;
 		margin-top: -3em;
