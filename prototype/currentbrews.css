@@ -111,7 +111,7 @@ h2 {
     margin: -1em;
     margin-left: -.5em;
     margin-right: -.5em;
-		margin-top: -35.5em;
+		margin-top: -287.5em;
     }
 
 .currentbrews hr {
@@ -159,6 +159,22 @@ h2 {
 		}
 
 .side-shottwo img {
+		opacity: 0;
+		}
+
+.growler img {
+		opacity: 0;
+		}
+
+.beer2 img {
+		opacity: 0;
+		}
+
+.tanks img {
+		opacity: 0;
+		}
+
+.flight img {
 		opacity: 0;
 		}
 
@@ -242,6 +258,7 @@ h2 {
 
 .box {
 margin-top: -9.2em;
+padding-bottom: 2.2em;
 }
 
 .box .featured {
@@ -270,7 +287,9 @@ margin-top: -9.2em;
 
 	.box .currentbrews {
 	    margin-left: 43.5em;
-			margin-top: -90.2em;
+			margin-top: -215.77em;
+			margin-bottom: -1em;
+			padding-bottom: 7.5em;
 	 }
 
 	.box .currentbrews p {
@@ -280,10 +299,42 @@ margin-top: -9.2em;
 
 	.side-shottwo img {
 		opacity: 1;
-		 height: 475px;
+		 height: 474.5px;
 		 max-width: 100%;
 		 margin-left: -1em;
 		 margin-top: 27em;
+	}
+
+	.growler img {
+		opacity: 1;
+		 height: 474.5px;
+		 max-width: 100%;
+		 margin-left: -1em;
+		 margin-top: -.15em;
+	}
+
+	.beer2 img {
+		opacity: 1;
+		 height: 475px;
+		 max-width: 100%;
+		 margin-left: -1em;
+		 margin-top: -.15em;
+	}
+
+	.tanks img {
+		opacity: 1;
+		 height: 534px;
+		 max-width: 100%;
+		 margin-left: -1em;
+		 margin-top: -.15em;
+	}
+
+	.flight img {
+		opacity: 1;
+		 height: 486px;
+		 max-width: 100%;
+		 margin-left: -1em;
+		 margin-top: -.15em;
 	}
 
 	.two-beers img {
