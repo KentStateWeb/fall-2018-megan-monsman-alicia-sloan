@@ -111,7 +111,7 @@ h2 {
     margin: -1em;
     margin-left: -.5em;
     margin-right: -.5em;
-		margin-top: -131em;
+		margin-top: -35.5em;
     }
 
 .currentbrews hr {
@@ -158,7 +158,7 @@ h2 {
 		margin-bottom: 1.195em;
 		}
 
-.side-shot img {
+.side-shottwo img {
 		opacity: 0;
 		}
 
@@ -278,7 +278,7 @@ margin-top: -9.2em;
 			 padding-right: -1em;
 	}
 
-	.side-shot img {
+	.side-shottwo img {
 		opacity: 1;
 		 height: 475px;
 		 max-width: 100%;
@@ -323,8 +323,8 @@ margin-top: -9.2em;
 			margin-right: 2em;
 		}
 
-	.box {
-	margin-top: -1em;
+	.box .current-brews {
+	margin-top: 26em;
 	}
 
 	.box .featured {
