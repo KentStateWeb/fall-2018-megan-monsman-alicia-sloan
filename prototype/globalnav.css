@@ -35,8 +35,8 @@ h1, h2, h3, p {
   opacity: 1;
   padding: .05em;
   margin-top: -.25em;
-  margin-left: -.5em;
-  margin-right: -.5em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .wrapper nav ul {
