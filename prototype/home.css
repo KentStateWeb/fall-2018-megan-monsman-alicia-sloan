@@ -1,3 +1,11 @@
+header {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  top: 0;
+  left: 0;
+  }
+
 .banner-images .drafts {
   background-image: url("Photos/drafts.jpg");
 	background-size: cover;

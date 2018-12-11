@@ -15,6 +15,7 @@ h1 {
   text-align: center;
   line-height: 1.5;
   color: white;
+  margin-top: 5em;
 }
 
 .contact {
@@ -50,10 +51,16 @@ h1 {
   max-width: 100%;
 }
 
-/*width="600" height="450"*/
-
 
 .overlay-box {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 40px;
 }
+
+header {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  top: 0;
+  left: 0;
+  }

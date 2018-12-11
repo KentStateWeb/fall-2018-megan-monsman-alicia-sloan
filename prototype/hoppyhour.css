@@ -2,10 +2,10 @@
     .feature {
         margin: 0;
         padding: 0;
-        background: url('photos/2beers.jpg') no-repeat;
+        background: url('photos/twobeers.jpg') no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        padding-top: 500px;
+        padding-top: 700px;
       }
   }
 
@@ -99,3 +99,11 @@
      max-width: 100%;
    }
   }
+
+  header {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    left: 0;
+    }
