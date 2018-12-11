@@ -17,6 +17,12 @@ header {
   margin-top: 0;
 }
 
+@media screen and (max-width: 650px) {
+  .banner-images .drafts {
+    margin-top: 500px;
+  }
+}
+
 .box {
   padding: -6em;
   margin: 0 auto;
