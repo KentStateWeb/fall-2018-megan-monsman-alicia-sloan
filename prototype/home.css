@@ -1,3 +1,4 @@
+@media screen and (min-width: 650px) {
 header {
   position: fixed;
   z-index: 3;
@@ -5,6 +6,7 @@ header {
   top: 0;
   left: 0;
   }
+}
 
 .banner-images .drafts {
   background-image: url("Photos/drafts.jpg");
@@ -17,11 +19,6 @@ header {
   margin-top: 0;
 }
 
-@media screen and (max-width: 650px) {
-  .banner-images .drafts {
-    margin-top: 500px;
-  }
-}
 
 .box {
   padding: -6em;
