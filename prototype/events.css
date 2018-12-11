@@ -31,6 +31,12 @@ body {
   }
 }
 
+@media screen and (max-width: 650px) {
+  .feature {
+    margin-top: 300px;
+  }
+}
+
 .content {
   padding: 50px;
   background-color: rgb(146,109,90);

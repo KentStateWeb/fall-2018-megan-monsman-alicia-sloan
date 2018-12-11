@@ -9,6 +9,12 @@
       }
   }
 
+  @media screen and (max-width: 650px) {
+    .feature {
+      margin-top: 300px;
+    }
+  }
+
 .hoppy-box {
   background-color: rgb(146,109,90);
   margin-top: -1.6em;
