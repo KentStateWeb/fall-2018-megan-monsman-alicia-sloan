@@ -88,7 +88,7 @@ h2 {
 
 .box .featured hr {
 	border: 0;
-	box-sizing: border-box;
+	width: 395px;
 	height: 1px;
 	background-color: rgb(40,21,16);
 }
