@@ -11,7 +11,7 @@
 
   @media screen and (max-width: 650px) {
     .feature {
-      padding: 1500px;
+      margin-top: 500px;
     }
   }
 
