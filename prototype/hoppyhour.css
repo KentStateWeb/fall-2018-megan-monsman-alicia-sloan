@@ -6,7 +6,7 @@
         background-size: cover;
         background-attachment: fixed;
         padding-top: 500px;
-        }
+      }
   }
 
 .hoppy-box {
@@ -97,5 +97,5 @@
   .beer2 img {
      height: 1040px;
      max-width: 100%;
-  }
+   }
   }
