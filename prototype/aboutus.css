@@ -46,6 +46,10 @@ h1 {
   padding: 40px;
 }
 
+.location iframe {
+  max-width: 100%;
+}
+
 /*width="600" height="450"*/
 
 
