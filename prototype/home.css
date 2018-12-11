@@ -11,8 +11,7 @@ header {
 .banner-images .drafts {
   background-image: url("Photos/drafts.jpg");
 	background-size: cover;
-  margin-top: 0;
-  margin-left: 0;
+  max-width: 100%;
 }
 
 
