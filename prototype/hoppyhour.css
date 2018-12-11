@@ -1,19 +1,12 @@
-.banner-images .two-beers {
-  background-image: url("Photos/2beers.jpg");
-	background-size: cover;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  overflow: hidden;
-  max-width: 100%;
-  margin: 0 auto;
-  max-height: 500px;
-  z-index: -5;
-  }
-
-  .beer2 img {
-     height: 420px;
-     max-width: 100%;
-     margin-top: 0;
+@media screen and (min-width: 650px) {
+    .feature {
+        margin: 0;
+        padding: 0;
+        background: url('photos/2beers.jpg') no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 500px;
+        }
   }
 
 .hoppy-box {
@@ -21,6 +14,8 @@
   margin-top: -1.6em;
   margin-left: -1em;
   margin-right: -1em;
+  margin-bottom: -2em;
+  padding-bottom: 1em;
 }
 
 .hoppyhour-info {
@@ -44,14 +39,17 @@
 }
 
 .weekender-box {
-  margin-top: 2em;
+  margin-top: 0;
   margin-bottom: 2.5em;
+  background-color: white;
+
 }
 
 .weekender {
   font-family: 'work sans', sans-serif;
   color: black;
   text-align: center;
+  padding: 1em;
   }
 
 .weekender h1 {
