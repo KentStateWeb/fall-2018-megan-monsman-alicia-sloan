@@ -220,7 +220,7 @@ h2 {
 
 @media screen and (min-width: 650px) {
 	.footer-block {
-		margin-top: 19em;
+		margin-top: 17em;
 		margin-bottom: -3em;
 		padding-top: -4em;
 		padding-bottom: -4em;
@@ -236,6 +236,7 @@ h2 {
 
 	.two-beers .twobeers img {
 			margin-top: 6.5em;
+			margin-left: 1.65em;
 			}
 
 .two-beers .heading-top h1 {
@@ -303,7 +304,7 @@ padding-bottom: 2.2em;
 	    margin-left: 43.5em;
 			margin-top: -215.77em;
 			margin-bottom: -1em;
-			padding-bottom: 7.5em;
+			padding-bottom: 9.52em;
 	 }
 
 	.box .currentbrews p {
@@ -349,6 +350,7 @@ padding-bottom: 2.2em;
 		 max-width: 100%;
 		 margin-left: -1em;
 		 margin-top: -.15em;
+		 z-index: 5;
 	}
 
 	.currentbrews p {
