@@ -13,7 +13,6 @@
   .beer2 img {
      height: 420px;
      max-width: 100%;
-     margin-left: -1em;
      margin-top: 0;
   }
 
@@ -88,6 +87,14 @@
 		padding-top: -4em;
 		padding-bottom: -4em;
 	}
+
+  .footer h3 {
+    font-size: 1em;
+  }
+
+  .footer {
+    margin-top: -16em;
+  }
 
   .beer2 img {
      height: 1040px;

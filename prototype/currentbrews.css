@@ -88,7 +88,7 @@ h2 {
 
 .box .featured hr {
 	border: 0;
-	width: 408px;
+	width: 350px;
 	height: 1px;
 	background-color: rgb(40,21,16);
 }
@@ -104,7 +104,7 @@ h2 {
 
 .currentbrews hr {
 	border: 0;
-	width: 408px;
+	width: 350px;
 	height: 1px;
 	background-color: rgb(40,21,16);
 }
@@ -150,7 +150,6 @@ h2 {
 		opacity: 1;
 		height: 430px;
 		max-width: 100%;
-		margin-left: -1em;
 		margin-top: 9em;
 		margin-bottom: -16.55em;
 		padding-bottom: 9.5em;
